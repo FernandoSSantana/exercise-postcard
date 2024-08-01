@@ -1,0 +1,83 @@
+body {
+	border: 1px solid;
+	border-color: black;
+	width: 450px;
+	height: 290px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	padding-left: 15px;
+}
+.cajas {
+	display: grid;
+	width: 10px;
+	height: 10px;
+	position: fixed;
+	top: 102px;
+	right: 1180px;
+}
+.separacaralho {
+	display: flex;
+}
+.izquierdo {
+	width: 195px;
+	height: 200px;
+}
+.nome {
+	width: 945px;
+	height: 200px;
+}
+.header {
+	display: flex;
+}
+input {
+	border: none;
+	border-bottom: 1px solid;
+	color: grey;
+	border-color: gray;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+img {
+	width: 55px;
+	height: 55px;
+	position: fixed;
+	top: 18px;
+	right: 1020px;
+}
+a {
+	position: fixed;
+	margin-left: 125px;
+	width: 200px;
+	display: block;
+	border: 1px solid;
+	border-color: #aaa #000 #000#aaa;
+	width: 8em;
+	background: rgb(192, 190, 190);
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 22px;
+}
+a:hover {
+	display: block;
+	border: 1px solid;
+	border-color: #aaa #000 #000#aaa;
+	width: 8em;
+	background: rgb(128, 126, 126);
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 22px;
+}
+a :active {
+	display: block;
+	border: 1px solid;
+	border-color: #000 #aaa #aaa#000;
+	width: 8em;
+	background: rgb(128, 126, 126);
+	text-decoration: none;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 22px;
+}
